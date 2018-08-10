@@ -1,5 +1,5 @@
 #!/bin/bash
-echo
+echo "===== LAMP Install ====="
 
 # 1.0
 echo "Installing repos..."
