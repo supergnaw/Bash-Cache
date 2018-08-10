@@ -2,6 +2,7 @@
 echo "===== LAMP Install ====="
 
 # 1.0
+yum -y update
 echo "Installing repos..."
 yum -y install epel-release
 
