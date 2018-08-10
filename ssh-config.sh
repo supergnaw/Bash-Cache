@@ -1,3 +1,4 @@
+echo "===== Configure SSH ====="
 PORT=0
 # prompt for new port
 while [[ $PORT < 22 || $PORT > 65535 ]]
@@ -45,3 +46,4 @@ do
 		break
 	fi
 done
+echo "----- Complete -----"
