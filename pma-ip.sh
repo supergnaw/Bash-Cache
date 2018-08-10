@@ -1,3 +1,4 @@
+echo "===== Configure phpMyAdmin ====="
 myip=`who am i | awk '{ print $5 }'`
 myip=${myip:1:-1}
 echo $myip
@@ -30,3 +31,4 @@ if [[ "${rep}" != "y" ]] || [[ "${rep}" != "Y" ]]; then
 	cp -uf "/etc/httpd/conf.d/phpMyAdmin.conf.bak" "/etc/httpd/conf.d/phpMyAdmin.conf"
 	systemctl restart httpd.service
 fi
+echo "----- Complete -----"
