@@ -2,10 +2,14 @@
 A small collection of bash scripts for setting up configuration of CentOS servers.
 
 ## Install
-```bash
-git clone --depth=1 https://github.com/supergnaw/centbash
-```
-or
 ```sh
+yum -y install wget unzip
 wget https://github.com/supergnaw/centbash/archive/master.zip
+unzip master.zip
+mv centbash-master centbash
+unlink master.zip
+```
+## Use
+```sh
+bash centbash/ctl.sh
 ```
