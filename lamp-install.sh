@@ -28,7 +28,7 @@ yum -y install php php-mysql phpmyadmin
 #	https://www.phpmyadmin.net/downloads/
 curl -O https://files.phpmyadmin.net/phpMyAdmin/4.8.2/phpMyAdmin-4.8.2-all-languages.tar.gz
 tar -zxvf phpMyAdmin-4.8.2-all-languages.tar.gz --directory /usr/share
-mv phpMyAdmin-4.8.2-all-languages phpmyadmin
+mv /usr/share/phpMyAdmin-4.8.2-all-languages /usr/share/phpmyadmin
 echo 'Alias /phpMyAdmin /usr/share/phpmyadmin
 Alias /phpmyadmin /usr/share/phpmyadmin
 
