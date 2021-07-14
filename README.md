@@ -1,4 +1,4 @@
-# centbash
+# Bash Cache ~~centbash~~
 A small collection of bash scripts for setting up configuration of CentOS servers. Best when ran under root on fresh install.
 
 ## Install
